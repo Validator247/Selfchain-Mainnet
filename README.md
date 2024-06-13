@@ -7,9 +7,8 @@
 
 #Public RPC Endpoint
 
-    RPC https://selfchain-rpc.validator247.com
-
-    API https://selfchain-api.validator247.com
+RPC https://selfchain-rpc.validator247.com
+API https://selfchain-api.validator247.com
 
 #Explorer
 
