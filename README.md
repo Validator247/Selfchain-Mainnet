@@ -1,22 +1,22 @@
 # Selfchain-Mainnet
 
-#Download gennesis & Addrbook
+# Download gennesis & Addrbook
 
     wget https://raw.githubusercontent.com/Validator247/Selfchain-Mainnet/main/addrbook.json -O addrbook.json
     wget https://raw.githubusercontent.com/Validator247/Selfchain-Mainnet/main/genesis.json -O genesis.json
 
-#Public RPC Endpoint
+# Public RPC Endpoint
 
 RPC https://selfchain-rpc.validator247.com
 
 API https://selfchain-api.validator247.com
 
-#Explorer
+# Explorer
 
 https://explorer.validator247.com/selfchain-mainnet/staking
 
 
-#Snapshot & State sync
+# Snapshot & State sync
 
 Snapshot
 
@@ -59,7 +59,7 @@ State Sync
 
     sudo systemctl restart selfchaind && sudo journalctl -fu selfchaind -o cat
 
-#WALLET MANAGEMENT
+# WALLET MANAGEMENT
 
     #Add new wallet
     selfchaind keys add wallet
@@ -76,7 +76,7 @@ State Sync
     #Check Wallet Balance
     selfchaind q bank balances $(selfchaind keys show wallet -a)
 
-#VALIDATOR MANAGEMENT
+# VALIDATOR MANAGEMENT
 
     #Create Validator
     selfchaind tx staking create-validator \
