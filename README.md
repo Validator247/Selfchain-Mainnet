@@ -8,11 +8,13 @@
 #Public RPC Endpoint
 
 RPC https://selfchain-rpc.validator247.com
+
 API https://selfchain-api.validator247.com
 
 #Explorer
 
-    https://explorer.validator247.com/selfchain-mainnet/staking
+https://explorer.validator247.com/selfchain-mainnet/staking
+
 
 #Snapshot & State sync
 
